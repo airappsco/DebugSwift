@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SQLiteManager.swift
 //  DebugSwift
@@ -362,3 +363,4 @@ enum QueryResult {
     case update(affectedRows: Int)
     case error(String)
 }
+#endif

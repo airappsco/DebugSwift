@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BacktraceEventsViewController.swift
 //  DebugSwift
@@ -244,3 +245,4 @@ final class BacktraceDetailViewController: BaseTableController {
         return cell
     }
 }
+#endif

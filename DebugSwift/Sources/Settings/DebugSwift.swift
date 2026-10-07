@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.swift
 //  DebugSwift
@@ -134,3 +135,4 @@ public class DebugSwift {
         return tabBar
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MeasurementElementsFactory.swift
 //  HyperionSwift
@@ -179,3 +180,4 @@ class MeasurementElementsFactory {
         }
     }
 }
+#endif

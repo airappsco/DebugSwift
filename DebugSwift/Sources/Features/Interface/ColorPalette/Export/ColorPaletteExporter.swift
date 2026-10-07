@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorPaletteExporter.swift
 //  DebugSwift
@@ -251,3 +252,4 @@ enum ColorPaletteExporter {
         return string
     }
 }
+#endif

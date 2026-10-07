@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderViewModel.swift
 //  DebugSwift
@@ -49,3 +50,4 @@ final class DocRecorderViewModel: ObservableObject {
         buttonFrame = frame
     }
 }
+#endif

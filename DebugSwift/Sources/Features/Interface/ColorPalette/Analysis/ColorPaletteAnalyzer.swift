@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorPaletteAnalyzer.swift
 //  DebugSwift
@@ -372,3 +373,4 @@ extension ColorPaletteAnalyzer {
         degrees * .pi / 180
     }
 }
+#endif

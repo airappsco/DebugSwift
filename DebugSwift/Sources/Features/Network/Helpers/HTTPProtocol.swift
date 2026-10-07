@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HTTPProtocol.swift
 //  DebugSwift
@@ -913,3 +914,4 @@ private final class RewriteRuleSelectionBox: @unchecked Sendable {
         queue.sync { value }
     }
 }
+#endif

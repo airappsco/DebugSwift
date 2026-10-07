@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Thread+.swift
 //  DebugSwift
@@ -79,3 +80,4 @@ extension Thread {
         )
     }
 }
+#endif

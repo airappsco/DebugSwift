@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Network.Controller.Detail.swift
 //  DebugSwift
@@ -1061,3 +1062,4 @@ extension NetworkViewControllerDetail: UISearchResultsUpdating {
         tableView.reloadData()
     }
 }
+#endif

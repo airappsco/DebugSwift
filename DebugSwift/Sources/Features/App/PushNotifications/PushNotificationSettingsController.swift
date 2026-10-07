@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PushNotificationSettingsController.swift
 //  DebugSwift
@@ -296,3 +297,4 @@ extension PushNotificationSettingsController: MenuSwitchTableViewCellDelegate {
         }
     }
 } 
+#endif

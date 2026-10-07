@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.UserDefaults.ViewModel.swift
 //  DebugSwift
@@ -187,3 +188,4 @@ final class ResourcesUserDefaultsViewModel: NSObject, ResourcesGenericListViewMo
         return keys.contains(key)
     }
 }
+#endif

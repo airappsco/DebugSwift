@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  StepperTableViewCell.swift
 //  DebugSwift
@@ -96,3 +97,4 @@ final class StepperTableViewCell: UITableViewCell {
         valueLabel.text = "\(value) \(suffix)"
     }
 } 
+#endif

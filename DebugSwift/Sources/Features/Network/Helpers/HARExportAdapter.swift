@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HARExportAdapter.swift
 //  DebugSwift
@@ -70,3 +71,4 @@ enum HARExportAdapter {
         return String(data: data, encoding: .utf8) ?? "<binary>"
     }
 }
+#endif

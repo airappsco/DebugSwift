@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorSwatchCell.swift
 //  DebugSwift
@@ -97,3 +98,4 @@ final class ColorSwatchCell: UITableViewCell {
         usageLabel.text = "\(color.usageCount)×"
     }
 }
+#endif

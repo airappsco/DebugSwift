@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.Files.Controller.swift
 //  DebugSwift
@@ -401,3 +402,4 @@ extension ResourcesFilesViewController {
         )
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.SwiftUIRender.swift
 //  DebugSwift
@@ -64,3 +65,4 @@ extension DebugSwift {
         }
     }
 } 
+#endif

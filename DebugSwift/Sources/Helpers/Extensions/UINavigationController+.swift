@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UINavigationController+.swift
 //  DebugSwift
@@ -30,3 +31,4 @@ extension UITabBar {
         }
     }
 }
+#endif

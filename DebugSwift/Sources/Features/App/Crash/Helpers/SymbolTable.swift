@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SymbolTable.swift
 //  DebugSwift
@@ -74,3 +75,4 @@ public struct SymbolTable {
         return SymbolTable(loadAddress: load, entries: parsed)
     }
 }
+#endif

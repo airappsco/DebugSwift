@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  AgentDebugLog.swift
 //  DebugSwift
@@ -312,3 +313,4 @@ final class AgentDebugLog: @unchecked Sendable {
         }
     }
 }
+#endif

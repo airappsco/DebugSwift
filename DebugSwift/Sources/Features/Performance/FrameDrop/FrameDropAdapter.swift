@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FrameDropAdapter.swift
 //  DebugSwift
@@ -78,3 +79,4 @@ final class FrameDropAdapter: @unchecked Sendable {
         frameCount = 0
     }
 }
+#endif

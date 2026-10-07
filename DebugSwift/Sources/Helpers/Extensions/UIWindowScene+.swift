@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIWindowScene+.swift
 //  DebugSwift
@@ -85,3 +86,4 @@ extension UIViewController {
     /// `DispatchQueue.once`) and only read afterward.
     nonisolated(unsafe) static var db_originalViewDidAppearIMP: IMP?
 }
+#endif

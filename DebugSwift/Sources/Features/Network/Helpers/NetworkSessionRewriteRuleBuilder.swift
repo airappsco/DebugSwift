@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkSessionRewriteRuleBuilder.swift
 //  DebugSwift
@@ -58,3 +59,4 @@ enum NetworkSessionRewriteRuleBuilder {
         return rules
     }
 }
+#endif

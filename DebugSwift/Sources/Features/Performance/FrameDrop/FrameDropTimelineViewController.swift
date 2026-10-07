@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FrameDropTimelineViewController.swift
 //  DebugSwift
@@ -163,3 +164,4 @@ final class FrameDropTimelineViewController: BaseTableController {
         return .systemYellow
     }
 }
+#endif

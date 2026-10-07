@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketResendFrameViewController.swift
 //  DebugSwift
@@ -306,3 +307,4 @@ private extension Data {
         self = data
     }
 }
+#endif

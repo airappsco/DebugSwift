@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashViewModel.swift
 //  DebugSwift
@@ -48,3 +49,4 @@ final class CrashViewModel: NSObject {
         "No data found in the " + viewTitle()
     }
 }
+#endif

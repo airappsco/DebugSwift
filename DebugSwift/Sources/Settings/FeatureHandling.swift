@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FeatureHandling.swift
 //  DebugSwift
@@ -174,3 +175,4 @@ enum FeatureHandling {
 #endif
     }
 }
+#endif

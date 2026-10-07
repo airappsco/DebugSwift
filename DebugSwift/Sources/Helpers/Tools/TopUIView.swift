@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  TopUIView.swift
 //  DebugSwift
@@ -37,3 +38,4 @@ class TopLevelViewWrapper: UIView {
         removeFromSuperview()
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorPaletteModels.swift
 //  DebugSwift
@@ -222,3 +223,4 @@ public struct ColorPaletteSnapshot {
         self.screenName = screenName
     }
 }
+#endif

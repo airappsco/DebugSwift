@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UserDefaultsAccess.swift
 //  DebugSwift
@@ -74,3 +75,4 @@ extension Keychain: UserDefaultsService, @unchecked Sendable {
         return nil
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ViewElement.swift
 //  LiveSnapshot
@@ -610,3 +611,4 @@ private func contentOffsetForView(_ view: UIView?) -> CGPoint {
     let contentOffset = scrollView.contentOffset
     return CGPoint(x: -contentOffset.x, y: -contentOffset.y)
 }
+#endif

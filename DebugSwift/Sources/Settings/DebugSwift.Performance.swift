@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.Performance.swift
 //  DebugSwift
@@ -299,3 +300,4 @@ extension DebugSwift.Performance {
         }
     }
 }
+#endif

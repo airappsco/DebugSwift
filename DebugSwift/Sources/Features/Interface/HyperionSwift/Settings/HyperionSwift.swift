@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HyperionSwift.swift
 //  HyperionSwift
@@ -23,3 +24,4 @@ public class HyperionSwift {
         MeasurementWindowManager.attachedWindow = nil
     }
 }
+#endif

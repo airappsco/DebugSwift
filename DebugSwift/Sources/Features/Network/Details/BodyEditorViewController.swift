@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BodyEditorViewController.swift
 //  DebugSwift
@@ -332,3 +333,4 @@ private struct FlattenedItem {
     let pathTokens: [JSONPathToken]
     let searchableText: String
 }
+#endif

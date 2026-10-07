@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  String+URLPattern.swift
 //  DebugSwift
@@ -299,3 +300,4 @@ private struct URLWildcardPattern {
         }
     }
 }
+#endif

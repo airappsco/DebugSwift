@@ -21,6 +21,11 @@ let package = Package(
             path: "DebugSwift",
             resources: [
                 .process("Resources")
+            ],
+            swiftSettings: [
+                // SPM targets do not inherit the app's DEBUG flag; define it
+                // explicitly so #if DEBUG source gating works in Debug builds.
+                .define("DEBUG", .when(configuration: .debug))
             ]
         )
     ],

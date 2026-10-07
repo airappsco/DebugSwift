@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  EventBus.swift
 //  DebugSwift
@@ -78,3 +79,4 @@ public final class EventBus {
         events.removeAll()
     }
 }
+#endif

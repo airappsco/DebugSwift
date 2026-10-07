@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FeatureBase.swift
 //  DebugSwift
@@ -48,3 +49,4 @@ public enum DebugSwiftBetaFeature: String, CaseIterable {
 
 @available(*, deprecated, renamed: "DebugSwiftFeature", message: "Use now DebugSwiftFeature")
 public typealias DebugSwiftFeatures = DebugSwiftFeature
+#endif

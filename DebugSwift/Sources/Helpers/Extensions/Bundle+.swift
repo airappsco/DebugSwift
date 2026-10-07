@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Bundle+.swift
 //  DebugSwift
@@ -28,3 +29,4 @@ extension Bundle {
                infoDictionary?["CFBundleName"] as? String
     }
 }
+#endif

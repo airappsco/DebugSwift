@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CoreDataManager.swift
 //  DebugSwift
@@ -212,3 +213,4 @@ extension NSDeleteRule {
         }
     }
 }
+#endif

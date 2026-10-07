@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIColor+.swift
 //  DebugSwift
@@ -83,3 +84,4 @@ extension UIColor {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HTTPFilterController.swift
 //  DebugSwift
@@ -534,3 +535,4 @@ final class TextFieldTableViewCell: UITableViewCell {
         onTextChanged?(textField.text ?? "")
     }
 } 
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkRequestEntity.swift
 //  DebugSwift
@@ -139,4 +140,5 @@ extension NetworkSessionPersistenceManager.RequestRecord {
         return model
     }
 }
+#endif
 #endif

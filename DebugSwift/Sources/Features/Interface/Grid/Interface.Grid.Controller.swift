@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Interface.Grid.Controller.swift
 //  DebugSwift
@@ -256,3 +257,4 @@ final class InterfaceGridController: BaseTableController, MenuSwitchTableViewCel
 //        userInterfaceToolkit.setSelectedGridOverlayColorSchemeIndex(index)
     }
 }
+#endif

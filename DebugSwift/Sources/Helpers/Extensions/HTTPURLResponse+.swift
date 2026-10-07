@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HTTPURLResponse+.swift
 //  DebugSwift
@@ -25,3 +26,4 @@ extension HTTPURLResponse {
         return nil
     }
 }
+#endif

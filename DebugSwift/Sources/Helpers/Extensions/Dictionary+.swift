@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Dictionary+.swift
 //  DebugSwift
@@ -54,3 +55,4 @@ extension Dictionary where Key == String {
         }
     }
 }
+#endif

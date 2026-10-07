@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SwizzleSessionConfiguration.swift
 //  DebugSwift
@@ -139,3 +140,4 @@ private extension URLSessionConfiguration {
         }
     }
 }
+#endif

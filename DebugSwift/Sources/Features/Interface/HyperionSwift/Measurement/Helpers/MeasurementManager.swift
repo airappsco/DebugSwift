@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MeasurementManager.swift
 //  HyperionSwift
@@ -372,3 +373,4 @@ class MeasurementManager {
         compareViewStyling.removeAll()
     }
 }
+#endif

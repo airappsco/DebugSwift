@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CwlDemangle.swift
 //  CwlDemangle
@@ -4616,3 +4617,4 @@ extension Array {
         return self[(from > startIndex ? from : startIndex)..<(to < endIndex ? to : endIndex)]
     }
 }
+#endif

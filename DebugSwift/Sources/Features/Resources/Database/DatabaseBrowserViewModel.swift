@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DatabaseBrowserViewModel.swift
 //  DebugSwift
@@ -202,3 +203,4 @@ enum DatabaseType: Hashable {
         return nil
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  RealmManager.swift
 //  DebugSwift
@@ -131,3 +132,4 @@ final class RealmManager: @unchecked Sendable {
         }
     }
 }
+#endif

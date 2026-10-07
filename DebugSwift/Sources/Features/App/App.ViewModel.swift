@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  App.ViewModel.swift
 //  DebugSwift
@@ -34,3 +35,4 @@ final class AppViewModel: NSObject {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DiskWriteTracker.swift
 //  DebugSwift
@@ -98,3 +99,4 @@ extension NSData {
         DiskWriteTracker.shared.recordWrite(bytes: UInt64(self.length))
     }
 }
+#endif

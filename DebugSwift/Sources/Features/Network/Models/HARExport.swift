@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HARExport.swift
 //  DebugSwift
@@ -139,3 +140,4 @@ public enum HAREncoder {
         }
     }
 }
+#endif

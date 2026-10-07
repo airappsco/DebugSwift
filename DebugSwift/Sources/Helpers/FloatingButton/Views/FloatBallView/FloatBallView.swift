@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FloatBallView.swift
 //  DebugSwift
@@ -303,3 +304,4 @@ extension FloatBallView {
         }
     }
 }
+#endif

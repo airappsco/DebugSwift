@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ViewControllerUtils.swift
 //  InAppViewDebugger
@@ -18,3 +19,4 @@ func getNearestAncestorViewController(responder: UIResponder) -> UIViewControlle
     }
     return nil
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebuggerDetailViewController.swift
 //  DebugSwift
@@ -245,3 +246,4 @@ final class DebuggerDetailViewController: UIViewController {
         present(alert, animated: true)
     }
 }
+#endif

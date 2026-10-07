@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  RecordingSession.swift
 //  DebugSwift
@@ -65,3 +66,4 @@ final class RecordingSession: ObservableObject {
         isPaused = false
     }
 }
+#endif

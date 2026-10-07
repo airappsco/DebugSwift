@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SnapshotViewConfiguration.swift
 //  InAppViewDebugger
@@ -72,3 +73,4 @@ final class SnapshotViewConfiguration: NSObject {
         super.init()
     }
 }
+#endif

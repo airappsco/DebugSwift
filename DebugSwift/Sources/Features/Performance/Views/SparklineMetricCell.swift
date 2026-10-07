@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SparklineMetricCell.swift
 //  DebugSwift
@@ -146,3 +147,4 @@ private final class SparklineView: UIView {
         UIBezierPath(roundedRect: rect, cornerRadius: 4).fill()
     }
 }
+#endif

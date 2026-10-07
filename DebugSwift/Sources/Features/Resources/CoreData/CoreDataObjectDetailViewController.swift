@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CoreDataObjectDetailViewController.swift
 //  DebugSwift
@@ -609,3 +610,4 @@ extension CoreDataRelatedObjectsViewController: UITableViewDataSource, UITableVi
         }
     }
 }
+#endif

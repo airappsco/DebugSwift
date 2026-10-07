@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkThresholdController.swift
 //  DebugSwift
@@ -505,3 +506,4 @@ extension NetworkThresholdController {
         present(alert, animated: true)
     }
 }
+#endif

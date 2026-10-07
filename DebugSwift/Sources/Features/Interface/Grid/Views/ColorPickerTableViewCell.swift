@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorPickerTableViewCell.swift
 //  DebugSwift
@@ -117,3 +118,4 @@ final class ColorPickerTableViewCell: UITableViewCell {
         }
     }
 }
+#endif

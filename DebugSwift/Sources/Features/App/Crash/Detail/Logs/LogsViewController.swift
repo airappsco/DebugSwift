@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LogsViewController.swift
 //  DebugSwift
@@ -60,3 +61,4 @@ final class LogsViewController: BaseController {
         ])
     }
 }
+#endif

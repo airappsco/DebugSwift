@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SnapshotView.swift
 //  InAppViewDebugger
@@ -688,3 +689,4 @@ private func nameTextGeometry(label: ElementLabel, font: UIFont) -> SCNText? {
     text.truncationMode = CATextLayerTruncationMode.end.rawValue
     return text
 }
+#endif

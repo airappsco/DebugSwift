@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ConsoleOutput.shared.swift
 //  DebugSwift
@@ -78,3 +79,4 @@ extension [String] {
         filter { !$0.contains("[DebugSwift] 🚀") }.reversed().joined(separator: "\n\n")
     }
 }
+#endif

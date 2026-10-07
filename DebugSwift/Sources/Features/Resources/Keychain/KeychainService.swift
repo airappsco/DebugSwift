@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  KeychainService.swift
 //  KeychainAccess
@@ -3225,3 +3226,4 @@ private func setupAuthenticationUI(query: inout [String: Any], options: Options,
     }
     #endif
 }
+#endif

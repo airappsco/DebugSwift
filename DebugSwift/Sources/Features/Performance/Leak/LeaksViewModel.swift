@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LeaksViewModel.swift
 //  DebugSwift
@@ -97,3 +98,4 @@ final class LeaksViewModel: NSObject, ResourcesGenericListViewModel {
         }
     }
 } 
+#endif

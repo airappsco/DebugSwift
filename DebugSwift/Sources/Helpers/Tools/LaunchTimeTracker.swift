@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LaunchTimeTracker.shared.swift
 //  LaunchTimeTracker
@@ -37,3 +38,4 @@ class LaunchTimeTracker: @unchecked Sendable {
         launchStartTime = measuredStartupTime >= 0 ? measuredStartupTime : nil
     }
 }
+#endif

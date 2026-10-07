@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderPassthroughWindow.swift
 //  DebugSwift
@@ -14,3 +15,4 @@ final class DocRecorderPassthroughWindow: UIWindow {
         touchableFrame.contains(point)
     }
 }
+#endif

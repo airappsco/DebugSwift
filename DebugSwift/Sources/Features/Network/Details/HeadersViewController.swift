@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HeadersViewController.swift
 //  DebugSwift
@@ -257,3 +258,4 @@ final class HeaderCell: UITableViewCell {
         }
     }
 }
+#endif

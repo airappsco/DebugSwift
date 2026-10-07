@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HTTP.Model.swift
 //  DebugSwift
@@ -49,3 +50,4 @@ final class HttpModel: NSObject {
         errorDescription == nil || errorDescription?.isEmpty == true
     }
 }
+#endif

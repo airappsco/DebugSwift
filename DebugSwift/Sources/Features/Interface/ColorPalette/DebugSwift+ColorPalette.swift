@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift+ColorPalette.swift
 //  DebugSwift
@@ -48,3 +49,4 @@ extension DebugSwift {
         }
     }
 }
+#endif

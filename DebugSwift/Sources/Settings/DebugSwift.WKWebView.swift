@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.WKWebView.swift
 //  DebugSwift
@@ -131,3 +132,4 @@ extension DebugSwift {
         }
     }
 }
+#endif

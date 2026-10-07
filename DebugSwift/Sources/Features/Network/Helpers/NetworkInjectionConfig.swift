@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkInjectionConfig.swift
 //  DebugSwift
@@ -329,3 +330,4 @@ public struct ResponseBodyRewriteConfig: Sendable {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SQLQueryViewController.swift
 //  DebugSwift
@@ -358,3 +359,4 @@ final class QueryHistoryViewController: UITableViewController {
     }
 }
 
+#endif

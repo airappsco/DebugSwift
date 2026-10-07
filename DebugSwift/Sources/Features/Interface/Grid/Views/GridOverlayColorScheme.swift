@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  GridOverlayColorScheme.swift
 //  DebugSwift
@@ -32,3 +33,4 @@ final class GridOverlayColorScheme: Equatable {
         GridOverlayColorScheme(primaryColor: primaryColor, secondaryColor: secondaryColor)
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  RecordingSessionStorage.swift
 //  DebugSwift
@@ -123,3 +124,4 @@ final class RecordingSessionStorage {
         try data.write(to: indexFileURL)
     }
 }
+#endif

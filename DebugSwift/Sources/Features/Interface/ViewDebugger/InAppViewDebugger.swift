@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  InAppViewDebugger.swift
 //  InAppViewDebugger
@@ -128,3 +129,4 @@ final class InAppViewDebugger: NSObject {
         fatalError()
     }
 }
+#endif

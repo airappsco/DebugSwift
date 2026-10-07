@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  App.CustomInfo.ViewModel.swift
 //  DebugSwift
@@ -56,3 +57,4 @@ final class AppCustomInfoViewModel: NSObject, ResourcesGenericListViewModel {
         }
     }
 }
+#endif

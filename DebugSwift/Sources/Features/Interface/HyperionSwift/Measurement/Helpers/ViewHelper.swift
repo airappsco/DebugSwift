@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ViewHelper.swift
 //  HyperionSwift
@@ -70,3 +71,4 @@ enum ViewHelper {
         return className.hasPrefix("DebugSwift.") || className.hasPrefix("HyperionSwift.")
     }
 }
+#endif

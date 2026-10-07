@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  AgentDebugLogViewController.swift
 //  DebugSwift
@@ -289,3 +290,4 @@ final class AgentDebugLogViewController: BaseController {
         }
     }
 }
+#endif

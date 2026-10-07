@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Location.ViewController.swift
 //  DebugSwift
@@ -138,3 +139,4 @@ extension LocationViewController: LocationSelectionDelegate {
         tableView.reloadData()
     }
 }
+#endif

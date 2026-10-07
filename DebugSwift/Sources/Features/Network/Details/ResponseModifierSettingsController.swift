@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ResponseModifierSettingsController.swift
 //  DebugSwift
@@ -599,3 +600,4 @@ extension ResponseModifierSettingsController: UISearchResultsUpdating {
         tableView.reloadData()
     }
 }
+#endif

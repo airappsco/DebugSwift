@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  OSLogConsoleViewModel.swift
 //  DebugSwift
@@ -126,3 +127,4 @@ final class OSLogConsoleViewModel: NSObject {
         monitor.isCapturing
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketFrameViewController.swift
 //  DebugSwift
@@ -258,3 +259,4 @@ extension WebSocketFrameViewController: UITableViewDelegate, UITableViewDataSour
         navigationController?.pushViewController(detailController, animated: true)
     }
 } 
+#endif

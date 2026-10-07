@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DeepLink.ViewModel.swift
 //  DebugSwift
@@ -143,3 +144,4 @@ final class DeepLinkViewModel {
         }
     }
 }
+#endif

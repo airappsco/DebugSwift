@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  OrientationForwardingNavigationController.swift
 //  DebugSwift
@@ -27,3 +28,4 @@ final class OrientationForwardingNavigationController: UINavigationController {
     }
 
 }
+#endif

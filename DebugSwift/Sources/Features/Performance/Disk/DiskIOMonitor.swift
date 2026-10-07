@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DiskIOMonitor.swift
 //  DebugSwift
@@ -95,3 +96,4 @@ final class DiskIOMonitor: ObservableObject {
         return descriptors
     }
 }
+#endif

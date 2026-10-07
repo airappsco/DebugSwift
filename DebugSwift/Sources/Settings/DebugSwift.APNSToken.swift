@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.APNSToken.swift
 //  DebugSwift
@@ -101,3 +102,4 @@ extension DebugSwift {
         }
     }
 } 
+#endif

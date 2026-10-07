@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketFrameDetailViewController.swift
 //  DebugSwift
@@ -375,3 +376,4 @@ final class WebSocketFrameDetailViewController: BaseController {
         present(navController, animated: true)
     }
 } 
+#endif

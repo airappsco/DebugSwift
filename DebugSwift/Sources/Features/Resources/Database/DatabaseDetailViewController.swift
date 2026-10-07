@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DatabaseDetailViewController.swift
 //  DebugSwift
@@ -180,3 +181,4 @@ struct DatabaseColumn {
     let isPrimaryKey: Bool
     let isNullable: Bool
 } 
+#endif

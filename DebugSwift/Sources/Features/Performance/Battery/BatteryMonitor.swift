@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BatteryMonitor.swift
 //  DebugSwift
@@ -194,3 +195,4 @@ extension UIDevice.BatteryState {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  EncryptionService.swift
 //  DebugSwift
@@ -148,3 +149,4 @@ final class EncryptionService: EncryptionServiceProtocol, @unchecked Sendable {
         }
     }
 }
+#endif

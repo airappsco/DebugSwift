@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  App.Controller.swift
 //  DebugSwift
@@ -374,3 +375,4 @@ extension AppViewController {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorDetailController.swift
 //  DebugSwift
@@ -327,3 +328,4 @@ final class ColorDetailController: BaseController {
         present(alert, animated: true)
     }
 }
+#endif

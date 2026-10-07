@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ScreenshotCapturer.swift
 //  DebugSwift
@@ -144,3 +145,4 @@ final class ScreenshotCapturer {
         }
     }
 }
+#endif

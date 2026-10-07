@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PushNotificationHistoryController.swift
 //  DebugSwift
@@ -335,3 +336,4 @@ extension PushNotificationHistoryController: UITableViewDelegate {
         present(alert, animated: true)
     }
 } 
+#endif

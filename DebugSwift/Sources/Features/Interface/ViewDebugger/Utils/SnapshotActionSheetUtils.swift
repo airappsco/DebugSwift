@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SnapshotActionSheetUtils.swift
 //  InAppViewDebugger
@@ -53,3 +54,4 @@ func actionSheet(
 
     return actionSheet
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkHelper.swift
 //  DebugSwift
@@ -47,3 +48,4 @@ final class NetworkHelper: @unchecked Sendable {
         WKWebViewNetworkMonitor.shared.uninstall()
     }
 }
+#endif

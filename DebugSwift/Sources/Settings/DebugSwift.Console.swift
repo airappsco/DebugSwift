@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.Console.swift
 //  DebugSwift
@@ -16,3 +17,4 @@ extension DebugSwift {
         public var onlyLogs = [String]()
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SymbolicatorAdapter.swift
 //  DebugSwift
@@ -68,3 +69,4 @@ final class SymbolicatorAdapter: @unchecked Sendable {
         return UInt64(trimmed)
     }
 }
+#endif

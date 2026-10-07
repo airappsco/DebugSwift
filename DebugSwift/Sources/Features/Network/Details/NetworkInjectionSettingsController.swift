@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkInjectionSettingsController.swift
 //  DebugSwift
@@ -517,3 +518,4 @@ extension NetworkFailureConfig.FailureType {
         return false
     }
 }
+#endif

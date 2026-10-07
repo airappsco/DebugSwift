@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UILabel+.swift
 //  DebugSwift
@@ -38,3 +39,4 @@ extension UILabel {
         numberOfLines = 0
     }
 }
+#endif

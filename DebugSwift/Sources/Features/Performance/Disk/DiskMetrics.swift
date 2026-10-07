@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DiskMetrics.swift
 //  DebugSwift
@@ -51,3 +52,4 @@ struct DiskUsageInfo {
         return Double(usedSpace) / Double(totalSpace) * 100
     }
 }
+#endif

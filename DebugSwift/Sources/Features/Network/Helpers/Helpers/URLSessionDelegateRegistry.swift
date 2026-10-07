@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  URLSessionDelegateRegistry.swift
 //  DebugSwift
@@ -113,3 +114,4 @@ extension URLSession {
     }
 }
 
+#endif

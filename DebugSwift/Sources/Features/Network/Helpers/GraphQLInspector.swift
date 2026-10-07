@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  GraphQLInspector.swift
 //  DebugSwift
@@ -75,3 +76,4 @@ public enum GraphQLInspector {
         }
     }
 }
+#endif

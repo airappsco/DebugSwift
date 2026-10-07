@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UserInfo.swift
 //  DebugSwift
@@ -133,3 +134,4 @@ public enum UserInfo {
         )
     }
 }
+#endif

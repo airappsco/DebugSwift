@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashModel.swift
 //  DebugSwift
@@ -127,3 +128,4 @@ extension [CrashModel.Trace] {
         return traces
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Data+.swift
 //  DebugSwift
@@ -114,3 +115,4 @@ extension URLRequest {
         return curlCommand
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  TransitionPush.swift
 //  DebugSwift
@@ -85,3 +86,4 @@ extension TransitionPush: CAAnimationDelegate {
         }
     }
 }
+#endif

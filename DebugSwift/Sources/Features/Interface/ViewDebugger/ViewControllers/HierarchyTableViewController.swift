@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HierarchyTableViewController.swift
 //  InAppViewDebugger
@@ -255,3 +256,4 @@ final class HierarchyTableViewController: UITableViewController, HierarchyTableV
 }
 
 extension Snapshot: Tree {}
+#endif

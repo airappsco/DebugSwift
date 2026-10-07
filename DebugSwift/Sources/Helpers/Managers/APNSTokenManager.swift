@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  APNSTokenManager.swift
 //  DebugSwift
@@ -247,3 +248,4 @@ extension APNSTokenManager {
         return chunks.joined()
     }
 } 
+#endif

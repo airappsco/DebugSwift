@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkSessionPersistenceStore.swift
 //  DebugSwift
@@ -283,4 +284,5 @@ actor NetworkSessionPersistenceStore {
         saveInternal(force: true)
     }
 }
+#endif
 #endif

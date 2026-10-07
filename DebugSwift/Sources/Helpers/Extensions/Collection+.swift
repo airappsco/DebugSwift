@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Collection+.swift
 //  DebugSwift
@@ -12,3 +13,4 @@ extension Collection {
         indices.contains(index) ? self[index] : nil
     }
 }
+#endif

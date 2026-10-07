@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MenuSegmentedControlTableViewCell.swift
 //  DebugSwift
@@ -73,3 +74,4 @@ final class MenuSegmentedControlTableViewCell: UITableViewCell {
         )
     }
 }
+#endif

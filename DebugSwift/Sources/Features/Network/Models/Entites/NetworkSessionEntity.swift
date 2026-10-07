@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkSessionEntity.swift
 //  DebugSwift
@@ -30,4 +31,5 @@ final class NetworkSessionEntity {
         self.createdAt = createdAt
     }
 }
+#endif
 #endif

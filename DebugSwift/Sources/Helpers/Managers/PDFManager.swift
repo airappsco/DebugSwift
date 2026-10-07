@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PDFManager.swift
 //  DebugSwift
@@ -207,3 +208,4 @@ extension PDFPage {
         return PDFPage()
     }
 }
+#endif

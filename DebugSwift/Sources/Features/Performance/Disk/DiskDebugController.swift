@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DiskDebugController.swift
 //  DebugSwift
@@ -231,3 +232,4 @@ extension DiskDebugController: MenuSwitchTableViewCellDelegate {
         isMonitoringEnabled = isOn
     }
 }
+#endif

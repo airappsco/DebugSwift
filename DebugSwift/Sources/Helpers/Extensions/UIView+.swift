@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIView+.swift
 //  DebugSwift
@@ -183,3 +184,4 @@ extension UIView {
         layer.borderColor = previousBorderColor
     }
 }
+#endif

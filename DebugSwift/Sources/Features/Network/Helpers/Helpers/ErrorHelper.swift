@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ErrorHelper.swift
 //  DebugSwift
@@ -209,3 +210,4 @@ enum ErrorHelper {
     }
 }
 // swiftlint:enable cyclomatic_complexity
+#endif

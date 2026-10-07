@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  App.CustomInfo.Model.swift
 //  DebugSwift
@@ -28,3 +29,4 @@ extension CustomData {
         let subtitle: String
     }
 }
+#endif

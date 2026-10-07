@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.Generic.Controller.swift
 //  DebugSwift
@@ -734,3 +735,4 @@ extension ResourcesGenericController {
         let title: String
     }
 }
+#endif

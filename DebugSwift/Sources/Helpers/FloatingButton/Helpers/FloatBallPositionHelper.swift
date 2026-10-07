@@ -1,3 +1,4 @@
+#if DEBUG
 import UIKit
 
 @MainActor
@@ -105,3 +106,4 @@ enum FloatBallPositionHelper {
         return minY...maxY
     }
 }
+#endif

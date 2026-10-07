@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MeasurementLineView.swift
 //  HyperionSwift
@@ -136,3 +137,4 @@ class MeasurementsView: UIView {
         measurementManager.placeRightMeasurementBetweenSelectedView(in: self, view1, comparisonView: view2)
     }
 }
+#endif

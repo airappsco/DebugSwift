@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FileHandle+.swift
 //  DebugSwift
@@ -104,3 +105,4 @@ extension FileHandle {
         return status > 0 ? fdIsSet(fileDescriptor, set: &fdset) : false
     }
 }
+#endif

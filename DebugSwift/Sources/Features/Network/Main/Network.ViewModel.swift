@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Network.ViewModel.swift
 //  DebugSwift
@@ -92,3 +93,4 @@ final class NetworkViewModel {
         return model.responseHeaderFields?["X-DebugSwift-Source"] as? String == "WKWebView"
     }
 }
+#endif

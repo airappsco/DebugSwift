@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BacktraceManager.swift
 //  DebugSwift
@@ -223,3 +224,4 @@ enum BacktraceCaptureEngine {
     }
     #endif
 }
+#endif

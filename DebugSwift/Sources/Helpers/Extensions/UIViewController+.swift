@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIViewController+.swift
 //  DebugSwift
@@ -182,3 +183,4 @@ extension UIViewController {
         let completion: (() -> Void)?
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HTTP.Datasource.swift
 //  DebugSwift
@@ -126,3 +127,4 @@ extension URLRequest {
         }
     }
 }
+#endif

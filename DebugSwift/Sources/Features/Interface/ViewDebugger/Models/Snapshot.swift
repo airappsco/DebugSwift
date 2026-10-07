@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Snapshot.swift
 //  InAppViewDebugger
@@ -48,3 +49,4 @@ final class Snapshot: NSObject {
         self.element = element
     }
 }
+#endif

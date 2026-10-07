@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BaseTableController.swift
 //  LaunchTimeTracker
@@ -33,3 +34,4 @@ class BaseTableController: UITableViewController {
         overrideUserInterfaceStyle = .dark
     }
 }
+#endif

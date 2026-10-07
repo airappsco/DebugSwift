@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SecurityAuditor.swift
 //  DebugSwift
@@ -116,3 +117,4 @@ public struct SecurityAuditor {
         patterns.contains { key.contains($0) }
     }
 }
+#endif

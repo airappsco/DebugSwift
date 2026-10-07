@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HeroHeaderView.swift
 //  DebugSwift
@@ -112,3 +113,4 @@ final class HeroHeaderView: UIView {
         }
     }
 }
+#endif

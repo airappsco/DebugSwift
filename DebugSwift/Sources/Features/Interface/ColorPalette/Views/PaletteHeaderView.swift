@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PaletteHeaderView.swift
 //  DebugSwift
@@ -51,3 +52,4 @@ final class PaletteHeaderView: UITableViewHeaderFooterView {
         countLabel.text = "\(count) color\(count == 1 ? "" : "s")"
     }
 }
+#endif

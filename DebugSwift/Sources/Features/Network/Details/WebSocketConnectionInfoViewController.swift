@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketConnectionInfoViewController.swift
 //  DebugSwift
@@ -278,3 +279,4 @@ final class WebSocketConnectionInfoViewController: BaseController {
         )
     }
 } 
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ConsoleViewModel.swift
 //  DebugSwift
@@ -66,3 +67,4 @@ final class AppConsoleViewModel: NSObject, ResourcesGenericListViewModel {
         }
     }
 }
+#endif

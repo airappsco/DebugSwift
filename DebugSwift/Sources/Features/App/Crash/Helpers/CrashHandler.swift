@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashHandler.swift
 //  DebugSwift
@@ -276,3 +277,4 @@ public class CrashHandler: @unchecked Sendable {
         signalExceptionHandler.prepare()
     }
 }
+#endif

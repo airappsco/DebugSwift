@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BatteryDebugController.swift
 //  DebugSwift
@@ -192,3 +193,4 @@ extension BatteryDebugController: MenuSwitchTableViewCellDelegate {
         isMonitoringEnabled = isOn
     }
 }
+#endif

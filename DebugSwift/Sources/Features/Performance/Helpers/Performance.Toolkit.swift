@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.Toolkit.swift
 //  DebugSwift
@@ -226,3 +227,4 @@ final class PerformanceToolkit {
 protocol PerformanceToolkitDelegate: AnyObject {
     func performanceToolkitDidUpdateStats(_ toolkit: PerformanceToolkit)
 }
+#endif

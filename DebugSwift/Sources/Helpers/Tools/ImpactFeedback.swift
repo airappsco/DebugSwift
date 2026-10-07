@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ImpactFeedback.swift
 //  DebugSwift
@@ -27,3 +28,4 @@ enum ImpactFeedback {
         generator.impactOccurred()
     }
 }
+#endif

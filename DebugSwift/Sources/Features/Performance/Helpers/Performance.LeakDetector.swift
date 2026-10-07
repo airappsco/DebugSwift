@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.LeakDetector.swift
 //
@@ -1124,3 +1125,4 @@ extension PerformanceLeakDetector {
         var symbol: String { hasDeallocated ? "✳️" : "⚠️" }
     }
 }
+#endif

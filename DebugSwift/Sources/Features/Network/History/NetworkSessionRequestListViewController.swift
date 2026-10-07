@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkSessionRequestListViewController.swift
 //  DebugSwift
@@ -205,4 +206,5 @@ extension NetworkSessionRequestListViewController: UISearchResultsUpdating {
         applyFilter()
     }
 }
+#endif
 #endif

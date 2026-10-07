@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DatabaseTableViewController.swift
 //  DebugSwift
@@ -651,3 +652,4 @@ final class DatabaseTableHeaderView: UIView {
 protocol DatabaseRowEditDelegate: AnyObject {
     func didSaveRow()
 }
+#endif

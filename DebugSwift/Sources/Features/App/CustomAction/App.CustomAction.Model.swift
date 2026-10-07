@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  App.CustomAction.Model.swift
 //  DebugSwift
@@ -30,3 +31,4 @@ extension CustomAction {
         let action: (() -> Void)?
     }
 }
+#endif

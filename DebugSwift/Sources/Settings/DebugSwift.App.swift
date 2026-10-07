@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.App.swift
 //  DebugSwift
@@ -53,3 +54,4 @@ extension DebugSwift {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SecurityAuditViewController.swift
 //  DebugSwift
@@ -189,3 +190,4 @@ final class SecurityFindingCell: UITableViewCell {
 private extension String {
     static let securityFindingCell = "SecurityFindingCell"
 }
+#endif

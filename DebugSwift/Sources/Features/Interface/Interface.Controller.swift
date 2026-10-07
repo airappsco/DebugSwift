@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Interface.Controller.swift
 //  DebugSwift
@@ -251,3 +252,4 @@ extension InterfaceViewController {
         }
     }
 }
+#endif

@@ -28,6 +28,12 @@ Pod::Spec.new do |s|
     s.user_target_xcconfig = {
       'LD_RUNPATH_SEARCH_PATHS' => '$(inherited) @executable_path/Frameworks'
     }
+
+    # Sources are gated with #if DEBUG. Xcode Debug configs already define DEBUG;
+    # keep Release free of that flag so the library compiles to an empty module.
+    s.pod_target_xcconfig = {
+      'SWIFT_ACTIVE_COMPILATION_CONDITIONS[config=Debug]' => '$(inherited) DEBUG'
+    }
   end
 
 # Alternative XCFramework-based podspec

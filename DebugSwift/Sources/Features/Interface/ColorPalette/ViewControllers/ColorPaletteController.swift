@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorPaletteController.swift
 //  DebugSwift
@@ -202,3 +203,4 @@ extension ColorPaletteController: UITableViewDataSource, UITableViewDelegate {
         return lines.joined(separator: "\n")
     }
 }
+#endif

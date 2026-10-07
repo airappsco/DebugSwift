@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIImage+.swift
 //  DebugSwift
@@ -38,3 +39,4 @@ extension UIImage {
         return newImage
     }
 }
+#endif

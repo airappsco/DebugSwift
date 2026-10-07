@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MeasurementWindowManager.swift
 //  HyperionSwift
@@ -141,3 +142,4 @@ final class CustomViewController: UIViewController, MeasurementViewDelegate {
         view = MeasurementsView(delegate: self)
     }
 }
+#endif

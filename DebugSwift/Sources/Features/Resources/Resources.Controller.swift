@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.Controller.swift
 //  DebugSwift
@@ -169,3 +170,4 @@ extension ResourcesViewController: UITableViewDataSource, UITableViewDelegate {
         }
     }
 }
+#endif

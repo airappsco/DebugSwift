@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CLLocationManager.swift
 //  DebugSwift
@@ -102,3 +103,4 @@ extension CLLocationManager {
         return swizzledLocation()
     }
 }
+#endif

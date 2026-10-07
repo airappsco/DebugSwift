@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FloatViewManager.swift
 //  DebugSwift
@@ -194,3 +195,4 @@ extension FloatViewManager: FloatViewDelegate {
         }
     }
 }
+#endif

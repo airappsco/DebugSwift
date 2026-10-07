@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderOverlayManager.swift
 //  DebugSwift
@@ -142,3 +143,4 @@ final class DocRecorderOverlayManager {
             .store(in: &cancellables)
     }
 }
+#endif

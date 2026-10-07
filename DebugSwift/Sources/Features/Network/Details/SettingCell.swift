@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SettingCell.swift
 //  DebugSwift
@@ -82,3 +83,4 @@ final class SettingCell: UITableViewCell {
         }
     }
 }
+#endif

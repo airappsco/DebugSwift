@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.MemoryWarning.swift
 //  DebugSwift
@@ -191,3 +192,4 @@ final class PerformanceMemoryWarning {
         }
     }
 }
+#endif

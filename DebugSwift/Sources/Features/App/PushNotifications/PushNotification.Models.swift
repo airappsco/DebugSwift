@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PushNotification.Models.swift
 //  DebugSwift
@@ -257,3 +258,4 @@ extension NotificationTemplate {
         )
     ]
 } 
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  GridOverlayView.swift
 //  DebugSwift
@@ -190,3 +191,4 @@ final class GridOverlayView: TopLevelViewWrapper {
         }
     }
 }
+#endif

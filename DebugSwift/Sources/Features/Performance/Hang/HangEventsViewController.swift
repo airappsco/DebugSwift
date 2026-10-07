@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HangEventsViewController.swift
 //  DebugSwift
@@ -247,3 +248,4 @@ final class HangDetailViewController: BaseTableController {
         return cell
     }
 }
+#endif

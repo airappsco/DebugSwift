@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.HTTPCookies.ViewModel.swift
 //  DebugSwift
@@ -99,3 +100,4 @@ final class ResourcesHTTPCookiesViewModel: NSObject, ResourcesGenericListViewMod
         }
     }
 }
+#endif

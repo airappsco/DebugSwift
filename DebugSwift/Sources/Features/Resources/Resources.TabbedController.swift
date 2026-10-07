@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.TabbedController.swift
 //  DebugSwift
@@ -260,3 +261,4 @@ final class ResourcesTabbedController: BaseController {
         }
     }
 } 
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  EventTimelineViewController.swift
 //  DebugSwift
@@ -325,3 +326,4 @@ private extension EventTimelineViewController {
         }
     }
 }
+#endif

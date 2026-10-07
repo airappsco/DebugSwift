@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UserInterfaceToolkit.swift
 //  DebugSwift
@@ -219,3 +220,4 @@ extension View {
         self.environment(\.userInterfaceToolkit, toolkit)
     }
 }
+#endif

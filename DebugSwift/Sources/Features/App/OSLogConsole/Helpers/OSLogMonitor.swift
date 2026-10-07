@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  OSLogMonitor.swift
 //  DebugSwift
@@ -206,3 +207,4 @@ final class OSLogMonitor: @unchecked Sendable {
         return false
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  OSLogEntry.swift
 //  DebugSwift
@@ -40,3 +41,4 @@ private extension DateFormatter {
         return formatter
     }()
 }
+#endif

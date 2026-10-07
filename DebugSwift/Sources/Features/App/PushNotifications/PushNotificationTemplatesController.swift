@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PushNotificationTemplatesController.swift
 //  DebugSwift
@@ -216,3 +217,4 @@ extension PushNotificationTemplatesController: UITableViewDelegate {
         present(alert, animated: true)
     }
 } 
+#endif

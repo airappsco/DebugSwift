@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SavedRecording.swift
 //  DebugSwift
@@ -26,3 +27,4 @@ struct SavedRecording: Codable, Identifiable {
         return formatter.string(from: date)
     }
 }
+#endif

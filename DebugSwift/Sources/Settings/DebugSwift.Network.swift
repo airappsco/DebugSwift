@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.Network.swift
 //  DebugSwift
@@ -624,3 +625,4 @@ extension DebugSwift {
 #endif
     }
 }
+#endif

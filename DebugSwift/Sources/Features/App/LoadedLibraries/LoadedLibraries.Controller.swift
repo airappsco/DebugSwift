@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LoadedLibraries.Controller.swift
 //  DebugSwift
@@ -190,3 +191,4 @@ extension LoadedLibrariesViewController: UISearchResultsUpdating {
         tableView.reloadData()
     }
 } 
+#endif

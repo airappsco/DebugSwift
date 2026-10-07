@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  InteractionInterceptor.swift
 //  DebugSwift
@@ -253,3 +254,4 @@ extension UIWindow {
         docRec_sendEvent(event)
     }
 }
+#endif

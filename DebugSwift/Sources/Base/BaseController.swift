@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BaseController.swift
 //  LaunchTimeTracker
@@ -30,3 +31,4 @@ class BaseController: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
     }
 }
+#endif

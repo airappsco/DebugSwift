@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DiskAnalyzer.swift
 //  DebugSwift
@@ -72,3 +73,4 @@ final class DiskAnalyzer: ObservableObject {
         return totalSize
     }
 }
+#endif

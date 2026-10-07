@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.Controller.swift
 //  DebugSwift
@@ -820,3 +821,4 @@ extension PerformanceViewController: PerformanceWidgetViewDelegate {
         _: PerformanceWidgetView, didTapOnSection _: PerformanceSection
     ) {}
 }
+#endif

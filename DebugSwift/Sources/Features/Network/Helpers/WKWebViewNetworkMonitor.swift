@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WKWebViewNetworkMonitor.swift
 //  DebugSwift
@@ -905,3 +906,4 @@ final class WebViewRequestCache: @unchecked Sendable {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  RewriteRulesCSV.swift
 //  DebugSwift
@@ -193,3 +194,4 @@ enum RewriteRulesCSVError: LocalizedError, Equatable {
         }
     }
 }
+#endif

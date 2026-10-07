@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DeepLink.Controller.swift
 //  DebugSwift
@@ -456,3 +457,4 @@ private final class DeepLinkHistoryCell: UITableViewCell {
         typeLabel.text = entry.type
     }
 }
+#endif

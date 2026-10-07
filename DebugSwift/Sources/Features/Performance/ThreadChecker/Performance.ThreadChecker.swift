@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.ThreadChecker.swift
 //  DebugSwift
@@ -222,3 +223,4 @@ public final class PerformanceThreadChecker: @unchecked Sendable {
         }
     }
 } 
+#endif

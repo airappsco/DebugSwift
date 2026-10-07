@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashDetailViewModel.swift
 //  DebugSwift
@@ -136,3 +137,4 @@ final class CrashDetailViewModel: NSObject {
         return result
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.Keychain.ViewModel.swift
 //  DebugSwift
@@ -179,3 +180,4 @@ final class ResourcesKeychainViewModel: NSObject, ResourcesGenericListViewModel 
         return keychainItems.contains { $0.key == key }
     }
 }
+#endif

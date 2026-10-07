@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LocationToolkit.swift
 //  DebugSwift
@@ -166,3 +167,4 @@ extension LocationToolkit {
         static let simulatedLongitude = "_simulatedLocationLongitude"
     }
 }
+#endif

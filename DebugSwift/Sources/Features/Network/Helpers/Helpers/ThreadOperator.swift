@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ThreadOperator.swift
 //  DebugSwift
@@ -42,3 +43,4 @@ final class ThreadOperator: NSObject {
         operation?()
     }
 }
+#endif

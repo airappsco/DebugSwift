@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocket.DataSource.swift
 //  DebugSwift
@@ -179,3 +180,4 @@ final class WebSocketDataSource: ObservableObject {
         }
     }
 } 
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Location.ViewModel.swift
 //  DebugSwift
@@ -54,3 +55,4 @@ final class LocationViewModel: NSObject {
         return String(format: "%d°%d'%d\"", abs(degrees), minutes, remainingSeconds)
     }
 }
+#endif

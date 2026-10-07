@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DatabaseRowEditViewController.swift
 //  DebugSwift
@@ -383,3 +384,4 @@ final class DatabaseRowEditViewController: BaseController {
         "\"\(value.replacingOccurrences(of: "\"", with: "\"\""))\""
     }
 }
+#endif

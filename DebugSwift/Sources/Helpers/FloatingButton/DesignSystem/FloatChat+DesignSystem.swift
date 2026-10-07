@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FloatChat+DesignSystem.swift
 //  DebugSwift
@@ -47,3 +48,4 @@ enum DSFloatChat {
     static let kUpBallViewFloatWidth: CGFloat = 60
     static let kUpBallViewFloatHeight: CGFloat = 60
 }
+#endif

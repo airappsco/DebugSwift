@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Network.Cell.swift
 //  DebugSwift
@@ -318,3 +319,4 @@ final class NetworkTableViewCell: UITableViewCell {
         ])
     }
 }
+#endif

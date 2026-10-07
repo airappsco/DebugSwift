@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.SwiftData.swift
 //  DebugSwift
@@ -83,4 +84,5 @@ public enum SwiftDataBrowserError: LocalizedError {
     }
 }
 
+#endif
 #endif

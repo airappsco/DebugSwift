@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  URLCache+.swift
 //  DebugSwift
@@ -43,3 +44,4 @@ extension URLCache {
         return nil
     }
 }
+#endif

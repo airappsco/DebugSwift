@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  VIewDebuggerViewController.swift
 //  InAppViewDebugger
@@ -252,3 +253,4 @@ final class ViewDebuggerViewController:
         dismiss(animated: true)
     }
 }
+#endif

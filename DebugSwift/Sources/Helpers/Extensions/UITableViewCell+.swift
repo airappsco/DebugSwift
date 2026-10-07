@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UITableViewCell+.swift
 //  DebugSwift
@@ -66,3 +67,4 @@ extension UITableViewCell {
         sizeToFit()
     }
 }
+#endif

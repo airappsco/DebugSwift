@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ApplicationDirectories.swift
 //  DebugSwift
@@ -21,3 +22,4 @@ final class ApplicationDirectories: @unchecked Sendable {
         return supportDirectory
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSnapshotViewController.swift
 //  LiveSnapshot
@@ -159,3 +160,4 @@ final class DebugSnapshotViewController: UIViewController, SnapshotViewDelegate,
         return self
     }
 }
+#endif

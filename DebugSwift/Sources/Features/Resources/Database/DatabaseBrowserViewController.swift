@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DatabaseBrowserViewController.swift
 //  DebugSwift
@@ -260,3 +261,4 @@ final class DatabaseFileCell: UITableViewCell {
         iconImageView.image = database.type.icon
     }
 }
+#endif

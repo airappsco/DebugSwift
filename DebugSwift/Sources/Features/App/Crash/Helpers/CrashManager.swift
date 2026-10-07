@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashManager.shared.swift
 //  DebugSwift
@@ -92,3 +93,4 @@ enum CrashType: String, Codable {
 
     var fileName: String { "\(rawValue)_crashes.json" }
 }
+#endif

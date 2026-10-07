@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SwiftDataManager.swift
 //  DebugSwift
@@ -302,4 +303,5 @@ struct SwiftDataPropertyItem {
     let rawValue: Any?
 }
 
+#endif
 #endif

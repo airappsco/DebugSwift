@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocket.Model.swift
 //  DebugSwift
@@ -195,3 +196,4 @@ final class WebSocketConnection: NSObject {
         lastActivityAt = Date()
     }
 } 
+#endif

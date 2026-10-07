@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ClassExplorer.ViewModel.swift
 //  DebugSwift
@@ -409,3 +410,4 @@ final class ClassExplorerViewModel {
         return "N/A"
     }
 } 
+#endif

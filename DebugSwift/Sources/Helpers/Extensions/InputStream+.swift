@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  InputStream+.swift
 //  DebugSwift
@@ -32,3 +33,4 @@ extension InputStream {
         return data
     }
 }
+#endif

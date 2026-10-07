@@ -1,3 +1,4 @@
+#if DEBUG
 // 
 //  HTTPRequestFilter.swift
 //  DebugSwift
@@ -169,3 +170,4 @@ enum TimeRange {
         }
     }
 } 
+#endif

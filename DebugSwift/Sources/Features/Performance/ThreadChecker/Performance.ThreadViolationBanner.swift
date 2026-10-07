@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.ThreadViolationBanner.swift
 //  DebugSwift
@@ -195,3 +196,4 @@ private extension UIView {
         return nil
     }
 } 
+#endif

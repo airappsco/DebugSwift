@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PushNotificationSimulator.swift
 //  DebugSwift
@@ -414,3 +415,4 @@ extension PushNotificationSimulator: UNUserNotificationCenterDelegate {
         }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketFrameTableViewCell.swift
 //  DebugSwift
@@ -224,3 +225,4 @@ final class WebSocketFrameTableViewCell: UITableViewCell {
         containerView.backgroundColor = .darkGray.withAlphaComponent(0.3)
     }
 } 
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UserDefaultsDiff.swift
 //  DebugSwift
@@ -131,3 +132,4 @@ public final class UserDefaultsDiff {
         String(describing: lhs) == String(describing: rhs)
     }
 }
+#endif

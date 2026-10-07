@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  RawBodyViewController.swift
 //  DebugSwift
@@ -194,3 +195,4 @@ final class RawBodyViewController: BaseController {
         }
     }
 }
+#endif

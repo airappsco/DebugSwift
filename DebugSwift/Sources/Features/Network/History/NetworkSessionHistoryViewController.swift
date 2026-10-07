@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkSessionHistoryViewController.swift
 //  DebugSwift
@@ -243,4 +244,5 @@ private extension DateFormatter {
         return formatter
     }()
 }
+#endif
 #endif

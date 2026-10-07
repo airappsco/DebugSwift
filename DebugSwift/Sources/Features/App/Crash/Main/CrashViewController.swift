@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashViewController.swift
 //  DebugSwift
@@ -144,3 +145,4 @@ extension CrashViewController {
         case crashes
     }
 }
+#endif

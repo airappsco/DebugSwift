@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkThresholdTracker.swift
 //  DebugSwift
@@ -362,3 +363,4 @@ extension Notification.Name {
     static let networkThresholdExceeded = Notification.Name("networkThresholdExceeded_DebugSwift")
     static let networkThresholdUpdated = Notification.Name("networkThresholdUpdated_DebugSwift")
 } 
+#endif

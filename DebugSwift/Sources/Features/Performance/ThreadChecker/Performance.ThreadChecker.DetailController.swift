@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.ThreadChecker.DetailController.swift
 //  DebugSwift
@@ -621,3 +622,4 @@ class SwitchCell: UITableViewCell {
         onToggle?(switchControl.isOn)
     }
 } 
+#endif

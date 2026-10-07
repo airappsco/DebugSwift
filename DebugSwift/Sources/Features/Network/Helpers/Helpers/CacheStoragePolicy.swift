@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CacheStoragePolicy.swift
 //  DebugSwift
@@ -64,3 +65,4 @@ enum CacheHelper {
         return result
     }
 }
+#endif

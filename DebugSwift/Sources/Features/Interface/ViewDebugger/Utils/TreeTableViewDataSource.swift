@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  TreeTableViewDataSource.swift
 //  InAppViewDebugger
@@ -76,3 +77,4 @@ private func flatten<TreeType: Tree>(tree: TreeType, depth: Int = 0, maxDepth: I
         return newResult
     }
 }
+#endif

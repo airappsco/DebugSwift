@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderDetailController.swift
 //  DebugSwift
@@ -218,3 +219,4 @@ final class DocRecorderDetailController: BaseController {
         present(activityVC, animated: true)
     }
 }
+#endif

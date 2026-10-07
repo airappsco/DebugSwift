@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FileSharingManager.swift
 //  DebugSwift
@@ -40,3 +41,4 @@ enum FileSharingManager {
         controller.present(activity, animated: true, completion: nil)
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Element.swift
 //  LiveSnapshot
@@ -68,3 +69,4 @@ protocol Element {
     /// The child elements of the element.
     var children: [Element] { get }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketMonitor.swift
 //  DebugSwift
@@ -557,3 +558,4 @@ private extension Data {
         return String(data: self, encoding: encoding)
     }
 }
+#endif

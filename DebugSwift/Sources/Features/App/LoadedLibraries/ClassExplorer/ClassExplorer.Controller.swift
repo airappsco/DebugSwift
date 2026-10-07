@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ClassExplorer.Controller.swift
 //  DebugSwift
@@ -173,3 +174,4 @@ extension ClassExplorerViewController: UITableViewDelegate {
         UITableView.automaticDimension
     }
 } 
+#endif

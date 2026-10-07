@@ -1,3 +1,4 @@
+#if DEBUG
 // swiftlint:disable all
 
 /*
@@ -539,4 +540,5 @@ extension Reachability {
     }
     #endif
 }
+#endif
 #endif

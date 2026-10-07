@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SwiftDataBrowserViewController.swift
 //  DebugSwift
@@ -269,4 +270,5 @@ extension SwiftDataBrowserViewController: UISearchResultsUpdating {
     }
 }
 
+#endif
 #endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderOverlayView.swift
 //  DebugSwift
@@ -194,3 +195,4 @@ private struct ButtonSizePreferenceKey: PreferenceKey {
         }
     }
 }
+#endif

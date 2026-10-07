@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DatabaseExportViewController.swift
 //  DebugSwift
@@ -512,3 +513,4 @@ final class DatabaseExportViewController: BaseController {
         return "'\(stringValue)'"
     }
 }
+#endif

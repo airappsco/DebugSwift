@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HTTPProtocolDelegate.swift
 //  DebugSwift
@@ -76,3 +77,4 @@ public enum CustomHTTPProtocolURLScheme: String, CaseIterable {
     case ws
     case wss
 }
+#endif

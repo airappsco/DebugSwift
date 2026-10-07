@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderExporter.swift
 //  DebugSwift
@@ -124,3 +125,4 @@ extension UIViewController {
         return self
     }
 }
+#endif

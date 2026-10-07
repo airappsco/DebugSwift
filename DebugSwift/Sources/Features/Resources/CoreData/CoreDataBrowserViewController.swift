@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CoreDataBrowserViewController.swift
 //  DebugSwift
@@ -329,3 +330,4 @@ final class CoreDataEntityCell: UITableViewCell {
         detailLabel.text = "\(entity.attributes.count) attributes, \(entity.relationships.count) relationships"
     }
 }
+#endif

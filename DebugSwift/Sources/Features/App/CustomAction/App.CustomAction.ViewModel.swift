@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  App.CustomAction.ViewModel.swift
 //  DebugSwift
@@ -63,3 +64,4 @@ final class AppCustomActionViewModel: NSObject, ResourcesGenericListViewModel {
         }
     }
 }
+#endif

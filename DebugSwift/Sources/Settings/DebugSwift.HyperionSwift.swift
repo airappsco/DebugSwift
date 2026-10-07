@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.HyperionSwift.swift
 //  DebugSwift
@@ -46,3 +47,4 @@ extension DebugSwift {
         }
     }
 } 
+#endif

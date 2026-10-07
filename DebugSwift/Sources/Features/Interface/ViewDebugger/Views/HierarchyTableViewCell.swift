@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HierarchyTableViewCell.swift
 //  InAppViewDebugger
@@ -259,3 +260,4 @@ final class HierarchyTableViewCell: UITableViewCell {
         delegate?.hierarchyTableViewCellDidLongPress(cell: self, point: point)
     }
 }
+#endif

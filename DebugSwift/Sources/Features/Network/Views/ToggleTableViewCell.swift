@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ToggleTableViewCell.swift
 //  DebugSwift
@@ -73,3 +74,4 @@ final class ToggleTableViewCell: UITableViewCell {
         onToggle?(toggleSwitch.isOn)
     }
 } 
+#endif

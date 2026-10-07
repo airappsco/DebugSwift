@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WindowManager.swift
 //  DebugSwift
@@ -150,3 +151,4 @@ final class CustomWindow: UIWindow {
         return false
     }
 }
+#endif

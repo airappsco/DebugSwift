@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DeepLink.Models.swift
 //  DebugSwift
@@ -108,3 +109,4 @@ struct DeepLinkEntry: Codable {
         }
     }
 }
+#endif

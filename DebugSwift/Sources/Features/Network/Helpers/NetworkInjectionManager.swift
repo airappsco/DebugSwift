@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkInjectionManager.swift
 //  DebugSwift
@@ -233,3 +234,4 @@ final class NetworkInjectionManager: @unchecked Sendable {
         }
     }
 }
+#endif

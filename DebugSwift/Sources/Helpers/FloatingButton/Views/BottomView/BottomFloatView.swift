@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BottomFloatView.swift
 //  DebugSwift
@@ -82,3 +83,4 @@ class BottomFloatView: UIView {
         }
     }
 }
+#endif

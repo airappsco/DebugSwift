@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BatteryMetrics.swift
 //  DebugSwift
@@ -59,3 +60,4 @@ struct EnergyImpact {
         return EnergyImpact(level: level, cpuUsage: cpuUsage, isCharging: isCharging)
     }
 }
+#endif

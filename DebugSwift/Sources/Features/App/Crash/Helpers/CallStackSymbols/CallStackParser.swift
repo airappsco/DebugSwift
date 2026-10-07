@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CallStackParser.swift
 //  Based on CallStackAnalyser.swift created by Mitch Robertson on 2016-05-20.
@@ -211,3 +212,4 @@ class CallStackParser {
         return nil
     }
 }
+#endif

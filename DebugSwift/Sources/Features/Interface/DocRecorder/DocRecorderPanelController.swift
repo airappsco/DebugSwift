@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DocRecorderPanelController.swift
 //  DebugSwift
@@ -176,3 +177,4 @@ extension DocRecorderPanelController: UITableViewDataSource, UITableViewDelegate
         return UISwipeActionsConfiguration(actions: [deleteAction])
     }
 }
+#endif

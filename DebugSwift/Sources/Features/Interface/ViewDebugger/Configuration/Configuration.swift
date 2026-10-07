@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Configuration.swift
 //  InAppViewDebugger
@@ -16,3 +17,4 @@ final class Configuration: NSObject {
     /// Configuration for the hierarchy (tree) view.
     @objc var hierarchyViewConfiguration = HierarchyViewConfiguration()
 }
+#endif

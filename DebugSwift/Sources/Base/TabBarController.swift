@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  TabBarController.swift
 //  LaunchTimeTracker
@@ -54,3 +55,4 @@ class TabBarController: UITabBarController {
         WindowManager.removeDebugger()
     }
 }
+#endif

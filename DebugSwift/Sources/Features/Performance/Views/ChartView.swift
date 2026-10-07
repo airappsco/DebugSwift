@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ChartView.swift
 //  DebugSwift
@@ -711,3 +712,4 @@ extension UIBezierPath {
         addCurve(to: point, controlPoint1: controlPoint1, controlPoint2: controlPoint2)
     }
 }
+#endif

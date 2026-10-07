@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SnapshotViewController.swift
 //  DebugSwift
@@ -87,3 +88,4 @@ final class SnapshotViewController: BaseController {
         imageView.layer.masksToBounds = true
     }
 }
+#endif

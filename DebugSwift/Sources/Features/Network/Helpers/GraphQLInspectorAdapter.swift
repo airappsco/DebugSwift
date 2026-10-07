@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  GraphQLInspectorAdapter.swift
 //  DebugSwift
@@ -82,3 +83,4 @@ enum GraphQLInspectorAdapter {
         return json["query"] as? String
     }
 }
+#endif

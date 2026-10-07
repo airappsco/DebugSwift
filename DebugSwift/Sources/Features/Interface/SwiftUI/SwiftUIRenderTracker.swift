@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SwiftUIRenderTracker.swift
 //  Copyright © 2025 Matheus Gois. All rights reserved.
@@ -637,3 +638,4 @@ public extension View {
         return self
     }
 }
+#endif

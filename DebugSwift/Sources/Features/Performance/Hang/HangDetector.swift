@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HangDetector.swift
 //  DebugSwift
@@ -86,3 +87,4 @@ public final class HangDetector {
         startedAt = nil
     }
 }
+#endif

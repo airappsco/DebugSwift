@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  WebSocketConnectionTableViewCell.swift
 //  DebugSwift
@@ -201,3 +202,4 @@ final class WebSocketConnectionTableViewCell: UITableViewCell {
         containerView.alpha = 1.0
     }
 } 
+#endif

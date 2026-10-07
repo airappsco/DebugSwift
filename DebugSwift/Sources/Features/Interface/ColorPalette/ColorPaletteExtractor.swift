@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ColorPaletteExtractor.swift
 //  DebugSwift
@@ -192,3 +193,4 @@ private extension UIView {
             || self is UIImageView
     }
 }
+#endif

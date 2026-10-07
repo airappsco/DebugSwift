@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ReachabilityManager.swift
 //  DebugSwift
@@ -15,3 +16,4 @@ enum ReachabilityManager {
         reachability?.getNetworkType() ?? .unknownTechnology
     }
 }
+#endif

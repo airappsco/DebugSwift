@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  ParallelLineView.swift
 //  InAppViewDebugger
@@ -64,3 +65,4 @@ final class ParallelLineView: UIView {
         return CGSize(width: CGFloat(lineCount) * (lineWidth + lineSpacing), height: UIView.noIntrinsicMetric)
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SwizzleManager.swift
 //  DebugSwift
@@ -35,3 +36,4 @@ enum SwizzleManager {
         }
     }
 }
+#endif

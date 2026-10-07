@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIApplication+.swift
 //  DebugSwift
@@ -42,3 +43,4 @@ extension UIWindowScene {
             .flatMap { $0.windows }
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LoadedLibraries.ViewModel.swift
 //  DebugSwift
@@ -329,3 +330,4 @@ final class LoadedLibrariesViewModel: @unchecked Sendable {
         return nil
     }
 } 
+#endif

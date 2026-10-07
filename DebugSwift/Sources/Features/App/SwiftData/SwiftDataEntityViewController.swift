@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SwiftDataEntityViewController.swift
 //  DebugSwift
@@ -445,4 +446,5 @@ extension SwiftDataModelDetailViewController {
     }
 }
 
+#endif
 #endif

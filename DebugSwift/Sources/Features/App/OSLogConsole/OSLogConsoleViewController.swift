@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  OSLogConsoleViewController.swift
 //  DebugSwift
@@ -507,3 +508,4 @@ extension SubsystemPickerViewController: UITableViewDataSource, UITableViewDeleg
         tableView.reloadRows(at: [indexPath], with: .automatic)
     }
 }
+#endif

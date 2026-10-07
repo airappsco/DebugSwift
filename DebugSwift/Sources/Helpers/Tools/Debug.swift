@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Debug.swift
 //  DebugSwift
@@ -35,3 +36,4 @@ enum Debug {
 //        Swift.print("[DebugSwift] 🚀 → \(message)")
     }
 }
+#endif

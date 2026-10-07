@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  StdoutCapture.swift
 //  DebugSwift
@@ -240,3 +241,4 @@ extension Data {
         }
     }
 }
+#endif

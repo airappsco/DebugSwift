@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Interface.SwiftUIRender.Controller.swift
 //  DebugSwift
@@ -334,3 +335,4 @@ final class InterfaceSwiftUIRenderController: BaseTableController,
         // Optional: Add behavior when user ends editing
     }
 } 
+#endif

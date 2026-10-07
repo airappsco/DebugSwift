@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  TransitionPop.swift
 //  DebugSwift
@@ -76,3 +77,4 @@ extension TransitionPop: CAAnimationDelegate {
         }
     }
 }
+#endif

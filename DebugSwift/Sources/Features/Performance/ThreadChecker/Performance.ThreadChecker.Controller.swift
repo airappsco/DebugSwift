@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.ThreadChecker.Controller.swift
 //  DebugSwift
@@ -377,3 +378,4 @@ class ThreadViolationCell: UITableViewCell {
         timeLabel.text = formatter.string(from: violation.timestamp)
     }
 } 
+#endif

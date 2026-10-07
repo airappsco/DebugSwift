@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIWindow+.swift
 //  DebugSwift
@@ -263,3 +264,4 @@ extension DispatchQueue {
         onceTracker.execute(token: token, block: block)
     }
 }
+#endif

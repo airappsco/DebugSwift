@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Network.Controller.swift
 //  DebugSwift
@@ -1006,3 +1007,4 @@ extension NetworkViewController: UITableViewDelegate, UITableViewDataSource {
         viewModel.isReachEnd = offsetY >= max(0, contentHeight - visibleHeight)
     }
 }
+#endif

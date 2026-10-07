@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UserDefaultsDiffViewController.swift
 //  DebugSwift
@@ -261,3 +262,4 @@ private extension DefaultsChange.Kind {
         }
     }
 }
+#endif

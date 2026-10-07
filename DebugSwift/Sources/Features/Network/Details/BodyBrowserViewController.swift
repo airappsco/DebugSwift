@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  BodyBrowserViewController.swift
 //  DebugSwift
@@ -415,3 +416,4 @@ final class BodyKeyValueCell: UITableViewCell {
         valueLabel.text = value
     }
 }
+#endif

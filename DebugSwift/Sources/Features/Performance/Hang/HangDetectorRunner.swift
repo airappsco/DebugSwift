@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HangDetectorRunner.swift
 //  DebugSwift
@@ -89,3 +90,4 @@ final class HangDetectorRunner: @unchecked Sendable {
         }
     }
 }
+#endif

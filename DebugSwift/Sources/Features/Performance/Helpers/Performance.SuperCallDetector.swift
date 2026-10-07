@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.SuperCallDetector.swift
 //  DebugSwift
@@ -297,3 +298,4 @@ extension UIViewController {
         casted(self, event.selector, animated)
     }
 }
+#endif

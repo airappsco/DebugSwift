@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  PushNotification.Controller.swift
 //  DebugSwift
@@ -538,3 +539,4 @@ extension PushNotificationController: MenuSwitchTableViewCellDelegate {
         tableView.reloadData()
     }
 } 
+#endif

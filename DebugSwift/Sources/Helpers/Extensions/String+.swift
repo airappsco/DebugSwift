@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  String+.swift
 //  DebugSwift
@@ -41,3 +42,4 @@ extension String {
         NSLocalizedString(self, bundle: .module, comment: comment)
     }
 }
+#endif

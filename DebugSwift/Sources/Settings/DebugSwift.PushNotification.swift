@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  DebugSwift.PushNotification.swift
 //  DebugSwift
@@ -331,3 +332,4 @@ extension DebugSwift.PushNotification {
         )
     }
 } 
+#endif

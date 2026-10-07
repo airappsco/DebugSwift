@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  HierarchyViewConfiguration.swift
 //  InAppViewDebugger
@@ -43,3 +44,4 @@ final class HierarchyViewConfiguration: NSObject {
     /// The spacing between the lines drawn to show the depth of the three.
     @objc var lineSpacing: CGFloat = 12.0
 }
+#endif

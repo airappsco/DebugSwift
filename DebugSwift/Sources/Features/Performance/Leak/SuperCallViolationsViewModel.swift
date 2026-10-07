@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SuperCallViolationsViewModel.swift
 //  DebugSwift
@@ -67,3 +68,4 @@ final class SuperCallViolationsViewModel: NSObject, ResourcesGenericListViewMode
         }
     }
 }
+#endif

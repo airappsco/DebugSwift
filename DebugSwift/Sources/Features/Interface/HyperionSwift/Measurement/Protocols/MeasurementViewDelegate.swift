@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MeasurementViewDelegate.swift
 //  HyperionSwift
@@ -11,3 +12,4 @@ import UIKit
 protocol MeasurementViewDelegate: AnyObject {
     var attachedWindow: UIWindow? { get }
 }
+#endif

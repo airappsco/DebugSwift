@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MenuSwitchTableViewCell.swift
 //  DebugSwift
@@ -68,3 +69,4 @@ final class MenuSwitchTableViewCell: UITableViewCell {
 extension MenuSwitchTableViewCell {
     static let identifier = "MenuSwitchTableViewCell"
 }
+#endif

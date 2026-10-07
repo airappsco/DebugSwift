@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.FPSCalculator.swift
 //  DebugSwift
@@ -89,3 +90,4 @@ public class FPSCounter: NSObject {
         fps = CGFloat(round(Double(numberOfFrames) / elapsedTime))
     }
 }
+#endif

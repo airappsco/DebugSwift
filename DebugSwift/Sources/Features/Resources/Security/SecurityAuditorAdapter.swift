@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SecurityAuditorAdapter.swift
 //  DebugSwift
@@ -50,3 +51,4 @@ enum SecurityAuditorAdapter {
         [:]
     }
 }
+#endif

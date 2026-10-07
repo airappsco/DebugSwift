@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  LibraryHeaderView.swift
 //  DebugSwift
@@ -180,3 +181,4 @@ final class LibraryHeaderView: UIView {
         onToggle?()
     }
 } 
+#endif

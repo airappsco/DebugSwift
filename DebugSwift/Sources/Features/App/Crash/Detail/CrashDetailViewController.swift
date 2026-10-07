@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CrashDetailViewController.swift
 //  DebugSwift
@@ -263,3 +264,4 @@ extension CrashDetailViewController {
         }
     }
 }
+#endif

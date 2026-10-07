@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  SliderTableViewCell.swift
 //  DebugSwift
@@ -122,3 +123,4 @@ extension SliderTableViewCell {
         case int
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  RewriteRuleEditViewController.swift
 //  DebugSwift
@@ -368,3 +369,4 @@ final class RewriteRuleEditViewController: BaseController {
         showAlert(with: "Body must be a valid JSON object or array", title: "Invalid JSON")
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  TouchIndicatorView.swift
 //  DebugSwift
@@ -47,3 +48,4 @@ final class TouchIndicatorView: UIView {
         layer.cornerRadius = min(frame.size.width, frame.size.height) / 2
     }
 }
+#endif

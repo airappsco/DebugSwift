@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  NetworkSessionPersistenceManager.swift
 //  DebugSwift
@@ -286,4 +287,5 @@ final class NetworkSessionPersistenceManager {
         }
     }
 }
+#endif
 #endif

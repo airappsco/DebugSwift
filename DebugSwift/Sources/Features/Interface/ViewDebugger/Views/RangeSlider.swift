@@ -1,3 +1,4 @@
+#if DEBUG
 // https://github.com/warchimede/RangeSlider
 
 import QuartzCore
@@ -298,3 +299,4 @@ final class RangeSlider: UIControl {
         upperThumbLayer.highlighted = false
     }
 }
+#endif

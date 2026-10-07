@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Resources.Generic.EditViewController.swift
 //  DebugSwift
@@ -258,3 +259,4 @@ extension ResourcesGenericEditViewController: UITextViewDelegate {
         }
     }
 } 
+#endif

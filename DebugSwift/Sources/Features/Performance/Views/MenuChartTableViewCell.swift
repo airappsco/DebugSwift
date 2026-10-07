@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MenuChartTableViewCell.swift
 //  DebugSwift
@@ -77,3 +78,4 @@ final class MenuChartTableViewCell: UITableViewCell {
         }
     }
 }
+#endif

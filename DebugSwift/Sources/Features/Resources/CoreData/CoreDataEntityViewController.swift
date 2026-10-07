@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  CoreDataEntityViewController.swift
 //  DebugSwift
@@ -408,3 +409,4 @@ final class CoreDataObjectCell: UITableViewCell {
         }
     }
 }
+#endif

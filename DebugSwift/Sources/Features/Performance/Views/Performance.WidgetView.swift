@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  Performance.WidgetView.swift
 //  DebugSwift
@@ -139,3 +140,4 @@ protocol PerformanceWidgetViewDelegate: AnyObject {
         _ performanceWidgetView: PerformanceWidgetView, didTapOnSection section: PerformanceSection
     )
 }
+#endif

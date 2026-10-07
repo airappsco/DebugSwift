@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  MapSelectionViewController.swift
 //  DebugSwift
@@ -122,3 +123,4 @@ final class MapSelectionViewController: BaseController {
         }
     }
 }
+#endif

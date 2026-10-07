@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  EventBusSubscriber.swift
 //  DebugSwift
@@ -52,3 +53,4 @@ final class EventBusSubscriber: @unchecked Sendable {
         listeners.removeAll()
     }
 }
+#endif

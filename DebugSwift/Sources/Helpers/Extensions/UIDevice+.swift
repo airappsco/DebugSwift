@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UIDevice+.swift
 //  DebugSwift
@@ -379,3 +380,4 @@ extension UIDevice {
         }
     }
 }
+#endif

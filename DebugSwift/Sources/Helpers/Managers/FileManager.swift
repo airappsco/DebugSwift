@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  FileManager.swift
 //  DebugSwift
@@ -32,3 +33,4 @@ class FileManagerHelper: FileManaging {
         try FileManager.default.attributesOfItem(atPath: path)
     }
 }
+#endif

@@ -1,3 +1,4 @@
+#if DEBUG
 //
 //  UserDefaultsDiffAdapter.swift
 //  DebugSwift
@@ -57,3 +58,4 @@ final class UserDefaultsDiffAdapter: @unchecked Sendable {
         diff.undo(change)
     }
 }
+#endif
