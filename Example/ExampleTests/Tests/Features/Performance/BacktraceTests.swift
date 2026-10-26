@@ -140,6 +140,19 @@ final class BacktraceTests: XCTestCase {
 
     // MARK: - Internal frame filtering
 
+    /// Jira: ENG-47983
+    /// The Mac Catalyst capture path symbolicates Runtime frames and still returns
+    /// sequential, non-empty frames. Native iOS uses the call-stack fallback.
+    func testCaptureEngineReturnsSequentialFrames() {
+        let frames = BacktraceCaptureEngine.captureFrames()
+
+        XCTAssertFalse(frames.isEmpty)
+        for (index, frame) in frames.enumerated() {
+            XCTAssertEqual(frame.index, index)
+            XCTAssertFalse(frame.symbol.isEmpty)
+        }
+    }
+
     func testInternalFramesAreFilteredOut() {
         let bt = DebugSwift.Performance.Backtrace.capture(label: "filter")
 

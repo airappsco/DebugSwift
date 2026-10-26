@@ -183,17 +183,24 @@ enum BacktraceCaptureEngine {
     static func captureFrames() -> [BacktraceFrame] {
         // SE-0419 path — available on macOS/Catalyst when the toolchain ships
         // the `Runtime` module.  Not available on native iOS as of Xcode 26.x.
+        //
+        // Jira: ENG-47983
+        // Business rule: symbolicated frames are Runtime.SymbolicatedBacktrace.Frame.
+        // Xcode 27 does not expose an unqualified Frame type. When the backtrace
+        // API is unavailable, capture falls through to Thread.callStackSymbols.
         #if canImport(Runtime)
-        if let symbolicated = try? Backtrace.capture().symbolicated() {
-            let frames = symbolicated.frames
-                .map { describe($0) }
-                .filter { symbol in
-                    !symbol.contains("BacktraceCaptureEngine")
-                        && !symbol.contains("BacktraceManager")
-                        && !symbol.contains("DebugSwift.Performance.Backtrace")
+        if #available(macOS 26.0, *) {
+            if let symbolicated = try? Backtrace.capture().symbolicated() {
+                let frames = symbolicated.frames
+                    .map { describe($0) }
+                    .filter { symbol in
+                        !symbol.contains("BacktraceCaptureEngine")
+                            && !symbol.contains("BacktraceManager")
+                            && !symbol.contains("DebugSwift.Performance.Backtrace")
+                    }
+                return frames.enumerated().map { idx, symbol in
+                    BacktraceFrame(index: idx, symbol: symbol)
                 }
-            return frames.enumerated().map { idx, symbol in
-                BacktraceFrame(index: idx, symbol: symbol)
             }
         }
         #endif
@@ -212,7 +219,8 @@ enum BacktraceCaptureEngine {
     }
 
     #if canImport(Runtime)
-    private static func describe(_ frame: Frame) -> String {
+    @available(macOS 26.0, *)
+    private static func describe(_ frame: SymbolicatedBacktrace.Frame) -> String {
         guard let symbol = frame.symbol else { return "<frame \(frame.captured)>" }
         var parts = [symbol.name]
         if let loc = symbol.sourceLocation {
